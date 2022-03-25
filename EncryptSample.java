@@ -42,8 +42,9 @@ public class EncryptSample {
 	
 	public static void main (String args[]) {
 		EncryptSample es = new EncryptSample();
-		String key = "key_value"; // 16, 32, ...
-        String input = "input_string";
+		String key = "2s5v8y/B?E(H+KbPeShVmYq3t6w9z$C&"; // 16, 32, ...
+        String input = args[0];
+		
         System.out.println("string input: " + input);
 		String encdata =es.encrypt(input, key);
 		System.out.println("encrypted data: "+encdata);
